@@ -6,35 +6,25 @@
 #include <cstdio>
 #pragma warning(disable:4996)
 
-//class Blog
-//{
-//public:
-//	char name[100];
-//	char text[1000];
-//	int LineCount;
-//
-//	Blog(char name[100], int BlogSize);
-//	void AddLine(char* text);
-//	void SaveInFile();
-//	void LodeFromFile();
-//	void Print();
-//};
 
-
-
-Blog::Blog(char aname[100], int BlogSize) {
+Blog::Blog(char aname[100], int aBlogSize) {
 
 	strcpy_s(this->name, aname);
-	#undef Max_t
-	#define Max_t BlogSize
+	this->text = new char[aBlogSize];
+	this->BlogSize = aBlogSize;
+	this->TextEnd = this->text;
+
 }
 
 void Blog::AddLine(char* ptext) {
-	strcpy(p1, ptext);
-	p1 = p1 + strlen(ptext);
-	strcpy(p1, ". ");
-	p1 = p1 + 2;
-	
+	int i = this->TextEnd - this->text;
+
+	if ((this->TextEnd - this->text) < this->BlogSize) {
+		strcpy(this->TextEnd, ptext);
+		this->TextEnd = this->TextEnd + strlen(ptext);
+		strcpy(this->TextEnd, ". ");
+		this->TextEnd = this->TextEnd + 2;
+	}
 	LineCount++;
 }
 

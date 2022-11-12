@@ -1,9 +1,9 @@
-#include "ball.h"
+
 #include <iostream>
 #include <string.h>
 #pragma warning(disable:4996)
 
-
+#include "ball.h"
 
 	void ball::jump() {
 		std::cout << "the bull is jumping\n";

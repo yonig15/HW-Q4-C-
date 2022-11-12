@@ -40,21 +40,21 @@ int main()
 
 	////**********Q4 Ball***********
 
-	char str[] = "yoni.txt";
-	char strText[] = "we are family";
-	char strText1[] = "and happy family";
+	char str[] = "hen.txt";
+	char strText[] = "we are family, and we work very hard";
+	char strText1[] = "yoni is a good name for a child";
 
-	Blog FamilyBlog(str, 100);
+	Blog FamilyBlog(str, 50);
 
 	std::cout << FamilyBlog.name<<"\n";
 	
 
 	FamilyBlog.AddLine(strText);
 	FamilyBlog.AddLine(strText1);
+	FamilyBlog.AddLine(strText1);
 	FamilyBlog.SaveInFile();
 	FamilyBlog.LodeFromFile();
 	FamilyBlog.Print();
-
 
 
 }

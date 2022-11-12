@@ -1,18 +1,16 @@
 #pragma once
 
-#define Max_t 1000
 
 class Blog
 {
 public:
-
-
 	char name[100];
-	char text[Max_t];
+	char * text;
+	int BlogSize;
 	
-	char* p1 = text;
+	char * TextEnd;
 	int LineCount;
-	Blog(char name[100], int BlogSize);
+	Blog(char name[100], int aBlogSize);
 	
 	void SaveInFile();
 	void LodeFromFile();
