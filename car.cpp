@@ -16,7 +16,7 @@ void car::Drive(int akm) {
 }
 
 void car::PrintStatus() {
-	std::cout << "the name of car is: "<<NameOfCar <<"\n";
+	std::cout << "the name of car is "<<NameOfCar <<"\n";
 	std::cout << "the number of car is: " << NumCar << "\n";
 	std::cout << "the color of car is: " << color << "\n";
 	std::cout << "you have " << PlaceInCar << " place in your car\n";
