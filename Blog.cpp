@@ -58,5 +58,5 @@ void Blog::LodeFromFile() {
 
 
 void Blog::Print() {
-	std::cout << text;
+	std::cout << text<<"\n\n\n\n";
 }

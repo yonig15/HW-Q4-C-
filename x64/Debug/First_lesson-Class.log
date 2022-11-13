@@ -1,5 +1,7 @@
-﻿  Blog.cpp
+﻿  ball.cpp
+  Blog.cpp
 C:\level-up\Semester B\c++ lesson-levelUp\7.11.2022 First_lesson-Class\First_lesson-Class\Blog.cpp(20,8): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  car.cpp
   main.cpp
   Generating Code...
   First_lesson-Class.vcxproj -> C:\level-up\Semester B\c++ lesson-levelUp\7.11.2022 First_lesson-Class\x64\Debug\First_lesson-Class.exe

@@ -40,7 +40,7 @@ int main()
 
 	////**********Q4 Ball***********
 
-	char str[] = "hen.txt";
+	char str[] = "yoni.txt";
 	char strText[] = "we are family, and we work very hard";
 	char strText1[] = "yoni is a good name for a child";
 
