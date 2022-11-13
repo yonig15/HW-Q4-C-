@@ -4,4 +4,4 @@ C:\level-up\Semester B\c++ lesson-levelUp\7.11.2022 First_lesson-Class\First_les
   car.cpp
   main.cpp
   Generating Code...
-  First_lesson-Class.vcxproj -> C:\level-up\Semester B\c++ lesson-levelUp\7.11.2022 First_lesson-Class\x64\Debug\First_lesson-Class.exe
+C:\level-up\Semester B\c++ lesson-levelUp\7.11.2022 First_lesson-Class\First_lesson-Class\Blog.cpp : fatal  error C1090: PDB API call failed, error code '3': C:\level-up\Semester B\c++ lesson-levelUp\7.11.2022 First_lesson-Class\First_lesson-Class\x64\Debug\vc143.pdb
